@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/hub"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+            android:id="@+id/button2"
+            android:soundEffectsEnabled="false"
+            android:layout_width="134dp"
+            android:layout_height="131dp"
+            android:background="@drawable/forgery"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.435"
+            app:layout_constraintVertical_bias="0.212"/>
+    <Button
+            android:id="@+id/homeButton"
+            android:soundEffectsEnabled="false"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/house"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.375"
+            app:layout_constraintVertical_bias="0.762"/>
+
+    <Button
+            android:id="@+id/button4"
+            android:soundEffectsEnabled="false"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:background="@drawable/questgiver"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.088"
+            app:layout_constraintVertical_bias="0.762"/>
+    <Button
+            android:id="@+id/vendorButton"
+            android:soundEffectsEnabled="false"
+            android:layout_width="114dp"
+            android:layout_height="108dp"
+            android:onClick="onClick"
+            android:background="@drawable/tent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.105"
+            app:layout_constraintVertical_bias="0.158"/>
+
+    <Button
+            android:id="@+id/forestButton"
+            android:layout_width="184dp"
+            android:layout_height="77dp"
+            android:background="@drawable/free_space"
+            android:soundEffectsEnabled="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.919"
+            app:layout_constraintVertical_bias="0.047"/>
+    <Button
+            android:id="@+id/cave_button"
+            android:soundEffectsEnabled="false"
+            android:layout_width="143dp"
+            android:layout_height="114dp"
+            android:background="@drawable/cave_in"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.977"
+            app:layout_constraintVertical_bias="0.666"/>
+    <Button
+            android:id="@+id/sea_button"
+            android:soundEffectsEnabled="false"
+            android:layout_width="245dp"
+            android:layout_height="82dp"
+
+            android:background="@drawable/free_space"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.967"
+            app:layout_constraintVertical_bias="1.0"/>
+    <Button
+            android:id="@+id/sound_button"
+            android:soundEffectsEnabled="false"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/volume_on_settings"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.022"
+            app:layout_constraintVertical_bias="0.041"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
